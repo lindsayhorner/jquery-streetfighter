@@ -31,13 +31,14 @@ $(document).ready(function() {
 $(document).keydown(function() {
   if (keyCode = 88) {
     $('.ryu-ready').hide();
-     $('.ryu-chill').show();
+    $('.ryu-still').hide();
+    $('.ryu-chill').show();
   }
  })
   .keyup(function() {
    if (keyup = 88) {
     $('.ryu-chill').hide();
-       $('.ryu-ready').show();
+       $('.ryu-still').show();
     }
  });
 
